@@ -110,7 +110,7 @@ func parseQualifiedName(name string) (QualifiedName, error) {
     }
 
     whisk.Debug(whisk.DbgInfo, "Qualified entityName: %s\n", qualifiedName.entityName)
-    whisk.Debug(whisk.DbgInfo, "Qaulified namespace: %s\n", qualifiedName.namespace)
+    whisk.Debug(whisk.DbgInfo, "Qualified namespace: %s\n", qualifiedName.namespace)
 
     return qualifiedName, nil
 }
